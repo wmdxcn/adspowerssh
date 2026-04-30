@@ -1,2 +1,2 @@
-# adspowerssh
-for Adspower ssh proxy
+# Adspower ssh proxy
+for Adspower ssh proxy and forward

@@ -25,7 +25,7 @@ case ${arch} in
 esac
 
 # 3. 构造下载链接 (指向你项目中的 reaml 目录)
-DOWNLOAD_URL="https://githubusercontent.com{GITHUB_USER}/${REPO_NAME}/${BRANCH}/reaml/${file}"
+DOWNLOAD_URL="https://raw.githubusercontent.com/${GITHUB_USER}/${REPO_NAME}/${BRANCH}/reaml/${file}"
 
 echo "检测到架构: ${arch}"
 echo "正在从项目下载: ${file}..."
